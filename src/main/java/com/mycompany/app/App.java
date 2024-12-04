@@ -9,7 +9,7 @@ public class App {
     	ResourceService resourceService=new ResourceService();
 		ResourceResponse resourceRespone=resourceService.getResource("001");
 		System.out.println(resourceRespone.toString());
-		resourceRespone=resourceRespone=resourceService.getResource("005");
+		resourceRespone=resourceService.getResource("005");
 		System.out.println(resourceRespone.toString());
     }
 }
